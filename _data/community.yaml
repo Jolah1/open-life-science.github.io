@@ -1,12 +1,34 @@
 ---
 team:
-  directors:
+  current:
     - bebatut
-    - emmyft
     - malvikasharan
     - yochannah
-  staff:
     - pazbc
+    - tajuddeen1
+    - pherterich
+    - msundukova
+    - npdebs
+    - jilaga
+    - flavioazevedo
+    - bethaniley
+    - camille-gonz-va
+    - iramosp
+    - rowlandm
+    - seunolufemi123
+  alumni:
+    - emmyft
+governance:
+  - anelda
+  - batoolmm
+  - estherplomp
+  - ha0ye
+  - laurah-nyasita-ondari
+  - npalopoli
+  - rowlandm
+  - selgebali
+  - saranjeetkaur
+  - smklusza
 advisors: []
 trainers:
   ols: []
@@ -83,3 +105,11 @@ sponsors:
     organization: university-manchester
     details: |
       The University of Manchester is Yo's Ph.D. research affiliation.
+fiscal_communities:
+  -
+    organization: RSE-AUNZ
+    name: RSE-AUNZ
+    details: |
+      The RSE Association of Australia and New Zealand ([RSE-AUNZ](https://rse-aunz.org/)) is a community that aims to build awareness of the diverse Research Software Engineer (RSE) roles, to connect volunteers 
+      in the RSE domain, and to help build practical solutions for the RSE community.
+    logo: https://github.com/rse-aunz/rse-aunz.github.io/blob/master/assets/RSE_AUNZ_logo.png?raw=true

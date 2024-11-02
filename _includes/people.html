@@ -21,6 +21,10 @@
           {% if user.twitter %}
           <a class="people-card-meta-twitter" href="https://twitter.com/{{ user.twitter }}"><i class="fab fa-twitter"></i> @{{ user.twitter }}</a><br>
           {% endif %}
+          {% if user.mastodon %}
+          <a class="people-card-meta-mastodon" href="https://{{ user.mastodon.server }}/@{{ user.mastodon.profile }}"><i class="fab fa-mastodon"></i> 
+            @{{ user.mastodon.profile }}</a><br>
+          {% endif %}
           {% if user.website %}
           <a href="{{ user.website }}"><i class="fas fa-globe"></i></a>
           {% endif %}
@@ -33,34 +37,32 @@
           {% if user.orcid %}
           <a href="https://orcid.org/{{ user.orcid }}"><i class="ai ai-orcid"></i></a>
           {% endif %}
-        
-          {% if user.affiliation or user.country %}
+
+          {% if user.affiliation or user.location.country %}
             <br>
-            <i class="fas fa-map-marker-alt"></i> 
+            <i class="fas fa-map-marker-alt"></i>
             {% assign delim = '' %}
             {% if user.affiliation %}
             {{ user.affiliation }}
             {% assign delim = ', ' %}
             {% endif %}
-            {% if user.country %}
-            {{ delim }}{{ user.country }}
+            {% if user.location.country %}
+            {{ delim }}{{ user.location.country }}
             {% endif %}
           {% endif %}
         </p>
       </div>
     </div>
 
-    {% if user.roles or user.title %}
+    {% if user.title or ols-roles and ols-roles != '' %}
     <p class="people-description">
-      {% if user.roles %}
-      <p class="people-description-question">
-        Role in OLS: {% if user.title %}<a class="card-toggle">{{ user.title }} <i class="fa fa-angle-down"></i></a>{% endif %}
-      </p>
-      <div class="content is-hidden">
-        {{ user.roles | markdownify }}
-      </div>
-      {% else %}
-      <p class="people-description-question">Role in OLS: <strong>{{ user.title }}</strong></p>
+      Role in OLS:
+      {% if user.title %}
+        {{ user.title }}
+      <br>
+      {% endif %}
+      {% if ols-roles and ols-roles != '' %}
+        {{ ols-roles }}
       {% endif %}
     </p>
     {% endif %}
@@ -71,8 +73,8 @@
     </p>
     {% endif %}
 
-    <div class="people-description">
-      {% if user.bio %}      
+    <div class="people-description" id="people-bio">
+      {% if user.bio %}
       <p class="people-description-question">
         <a class="card-toggle">
           More about {{ user.first-name }}
@@ -84,5 +86,6 @@
       </div>
       {% endif %}
     </div>
+    
   </div>
 </div>
