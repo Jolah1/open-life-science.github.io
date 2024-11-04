@@ -645,7 +645,8 @@ Tooling for Collaboration:
       title: Designing and enforcing a Code of Conduct
       date: October 11, 2023
       cohort: ols-8
-    - speakers:
+    - slides: https://drive.google.com/file/d/16WN14BpBug8Op3ekhlhIZH12Bv5Nyxha/view
+      speakers:
       - karinlag
       title: Designing and enforcing a Code of Conduct
       date: October 09, 2024
@@ -771,6 +772,11 @@ Tooling for Collaboration:
       recording: https://youtu.be/tRFSQ4w9udE?si=4cb6g92bua79xJLy&t=416
       date: November 29, 2023
       cohort: ols-8
+    - speakers:
+      - laitanawe
+      title: 'Good Coding Practices '
+      date: November 13, 2024
+      cohort: ols-9-catalyst
   Code Review:
     description: Reviewing code to help improve your code quality
     talks:
@@ -796,6 +802,11 @@ Tooling for Collaboration:
       recording: https://youtu.be/tRFSQ4w9udE?si=4cb6g92bua79xJLy&t=1437
       date: November 29, 2023
       cohort: ols-8
+    - speakers:
+      - gedankenstuecke
+      title: Code Review
+      date: November 13, 2024
+      cohort: ols-9-catalyst
   Package Management:
     description: Software environment for research reproducibility
     talks:
@@ -805,6 +816,11 @@ Tooling for Collaboration:
       recording: https://youtu.be/tRFSQ4w9udE?si=4cb6g92bua79xJLy&t=2890
       date: November 29, 2023
       cohort: ols-8
+    - speakers:
+      - lwasser
+      title: Package Managements
+      date: November 13, 2024
+      cohort: ols-9-catalyst
 Open Science:
   Open Science Introduction:
     description: Sharing knowledge for the global access
@@ -906,6 +922,11 @@ Open Science:
       date: December 06, 2023
       cohort: ols-8
       title: Open Hardware
+    - speakers:
+      - fadanka
+      title: Open Hardware
+      date: December 04, 2024
+      cohort: ols-9-catalyst
   Open Source Software:
     description: Making analysis reproducible with open source code
     talks:
@@ -1023,6 +1044,11 @@ Open Science:
       date: December 06, 2023
       cohort: ols-8
       title: Open Source Software
+    - speakers:
+      - godwyns-onwuchekwa
+      title: Open Source Software
+      date: November 20, 2024
+      cohort: ols-9-catalyst
   Open Data:
     description: Making data findable, accessible, interoperable, reusable
     talks:
@@ -1198,6 +1224,11 @@ Open Science:
       recording: https://youtu.be/NxWpBicnqC0?si=PqoCZ1lNQLwo5n7s&t=205
       date: November 21, 2023
       cohort: ols-8
+    - speakers:
+      - lauracarter
+      title: Open Engagement of Social Actors
+      date: December 04, 2024
+      cohort: ols-9-catalyst
     - title: Open Engagement of Social Actors
       date: November 20, 2024
       cohort: ols-9-dra
@@ -1332,6 +1363,11 @@ Open Science:
       recording: https://youtu.be/NxWpBicnqC0?si=sPc3fbZXk5l4zFu8&t=3733
       date: November 21, 2023
       cohort: ols-8
+    - speakers:
+      - 
+      title: Open Access Publication
+      date: November 20, 2024
+      cohort: ols-9-catalyst
     - title: Open Access Publication
       date: November 20, 2024
       cohort: ols-9-dra
@@ -1378,6 +1414,11 @@ Open Science:
       title: Why open reviews?
       date: October 24, 2023
       cohort: ols-8
+    - speakers:
+      - 
+      title: Open Review and Open Evaluation
+      date: November 20, 2024
+      cohort: ols-9-catalyst
     - title: Why open reviews?
       date: October 23, 2024
       cohort: ols-9-dra
@@ -1411,6 +1452,11 @@ Open Science:
         networks?
       date: October 24, 2023
       cohort: ols-8
+    - speakers:
+      - 
+      title: 'Diversity of knowledge: Bibliodiversity'
+      date: December 04, 2024
+      cohort: ols-9-catalyst
     - title: How do we learn from each other in global large-scale collaborative research
         networks?
       date: October 23, 2024
@@ -1618,6 +1664,11 @@ Project, Community & Personal Management:
       title: "Mountain of Engagement\r\n"
       date: November 08, 2023
       cohort: ols-8
+    - speakers:
+      - kirstiejane
+      title: Mountain of Engagement
+      date: November 06, 2024
+      cohort: ols-9-catalyst
     - title: "Mountain of Engagement\r\n"
       date: November 06, 2024
       cohort: ols-9-dra
@@ -1678,6 +1729,11 @@ Project, Community & Personal Management:
       title: Personas and Pathways
       date: November 08, 2023
       cohort: ols-8
+    - speakers:
+      - 
+      title: Personas and Pathways
+      date: November 06, 2024
+      cohort: ols-9-catalyst
     - title: Personas and Pathways
       date: November 06, 2024
       cohort: ols-9-dra
@@ -1828,6 +1884,11 @@ Project, Community & Personal Management:
       title: 'Community Interaction '
       date: November 08, 2023
       cohort: ols-8
+    - speakers:
+      - chartgerink
+      title: 'Community Interaction '
+      date: November 06, 2024
+      cohort: ols-9-catalyst
     - title: 'Community Interaction '
       date: November 06, 2024
       cohort: ols-9-dra
@@ -2101,6 +2162,34 @@ Not sorted:
       - npdebs
       title: Introduction to GitHub
       date: October 16, 2024
+      cohort: ols-9-catalyst
+    - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vSEfshqEIVtV81kuKFQL00-TtjfTjBA6OBXkEs_VixJ0ptJXE5Nued6-bBKPSkjUA/pub?start=false&loop=false&delayms=3000&slide=id.p1
+      speakers:
+      - tajuddeen1
+      title: Community Design for Inclusivity
+      date: November 06, 2024
+      cohort: ols-9-catalyst
+    - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vRvZgO4mhul2N575YsayBI1EFDmCIneKg47A9YAXRS8PMafLUgQ8s3COoL86I6XuQ/pub?start=false&loop=false&delayms=3000&slide=id.p1
+      speakers:
+      - tajuddeen1
+      title: Open-source software in practice
+      date: November 13, 2024
+      cohort: ols-9-catalyst
+    - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vQiOSkedwkI8IkMCL_gWJ_qevHZhcHej6PP8otv7BPFoBRqJiEU8BGpc1V6d2Y7jg/pub?start=false&loop=false&delayms=3000&slide=id.p1
+      speakers:
+      - tajuddeen1
+      title: Open Science Garden(s)
+      date: November 20, 2024
+      cohort: ols-9-catalyst
+    - slides: 
+        https://docs.google.com/presentation/d/e/2PACX-1vTx3oylG4TpcsIXJPXuvNluZSdqJZoRI_6b76Lv5VgdyvymmE91gU1x-MfKCnvwdg/pub?start=false&loop=false&delayms=3000&slide=id.p1
+      speakers:
+      - malvikasharan
+      title: Open Science Garden(s)
+      date: December 04, 2024
       cohort: ols-9-catalyst
     - title: GitHub for Collaboration
       date: October 16, 2024

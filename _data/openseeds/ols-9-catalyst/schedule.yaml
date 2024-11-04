@@ -173,7 +173,8 @@ weeks:
         - joyceykao
         title: A Primer on Open Licenses
         tag: Open Licensing
-      - speakers:
+      - slides: https://drive.google.com/file/d/16WN14BpBug8Op3ekhlhIZH12Bv5Nyxha/view
+        speakers:
         - karinlag
         title: Designing and enforcing a Code of Conduct
         tag: Code of Conduct
@@ -273,6 +274,7 @@ weeks:
       - Check the GitHub Intro notes, learning resource and video from last week
       - Prepare to share your project online through Git Pages,  Google Site, Wordpress
         or other option. ← long term assignment, do it in your own pace.
+      recording: https://www.youtube.com/watch?v=C8ukpzAUKEw
   '07':
     start: October 28, 2024
     calls:
@@ -297,6 +299,10 @@ weeks:
       type: Skill-up
       talks: []
       notes: https://annuel2.framapad.org/p/ols-9-week-07
+      recording: https://www.youtube.com/watch?v=KPsL2_T8moU
+      learning_objectives:
+      - Recall non traditional (academic) career path
+      - Appreciate different leaderships
   '08':
     start: November 04, 2024
     calls:
@@ -317,7 +323,24 @@ weeks:
       hosts:
       - tajuddeen1
       type: Cohort
-      talks: []
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vSEfshqEIVtV81kuKFQL00-TtjfTjBA6OBXkEs_VixJ0ptJXE5Nued6-bBKPSkjUA/pub?start=false&loop=false&delayms=3000&slide=id.p1
+        speakers:
+        - tajuddeen1
+        title: Community Design for Inclusivity
+      - speakers:
+        - chartgerink
+        title: 'Community Interaction '
+        tag: Community Interactions
+      - speakers:
+        - kirstiejane
+        title: Mountain of Engagement
+        tag: Mountain of Engagement
+      - speakers:
+        - 
+        title: Personas and Pathways
+        tag: Personas & Pathways
       learning_objectives:
       - Considering different kinds of interactions for your community
       - Use the Mountain of Engagement method to support participants through various
@@ -338,8 +361,30 @@ weeks:
       hosts:
       - tajuddeen1
       type: Skill-up
-      talks: []
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vRvZgO4mhul2N575YsayBI1EFDmCIneKg47A9YAXRS8PMafLUgQ8s3COoL86I6XuQ/pub?start=false&loop=false&delayms=3000&slide=id.p1
+        speakers:
+        - tajuddeen1
+        title: Open-source software in practice
+      - speakers:
+        - laitanawe
+        title: 'Good Coding Practices '
+        tag: Good Coding Practices
+      - speakers:
+        - gedankenstuecke
+        title: Code Review
+        tag: Code Review
+      - speakers:
+        - lwasser
+        title: Package Managements
+        tag: Package Management
       time: "17:00"
+      learning_objectives:
+      - Apply good coding practices to your software
+      - Review code
+      - Identify package management for your software
+      - 'Make your software ready for open-source- '
   '10':
     start: November 18, 2024
     calls:
@@ -350,7 +395,28 @@ weeks:
       hosts:
       - tajuddeen1
       type: Cohort
-      talks: []
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vQiOSkedwkI8IkMCL_gWJ_qevHZhcHej6PP8otv7BPFoBRqJiEU8BGpc1V6d2Y7jg/pub?start=false&loop=false&delayms=3000&slide=id.p1
+        speakers:
+        - tajuddeen1
+        title: Open Science Garden(s)
+      - speakers:
+        - 
+        title: Open Review and Open Evaluation
+        tag: Open Evaluation
+      - speakers:
+        - godwyns-onwuchekwa
+        title: Open Source Software
+        tag: Open Source Software
+      - speakers:
+        - 
+        title: Open Access Publication
+        tag: Open Access Publication
+      learning_objectives:
+      - Define Open Science and Responsible Research
+      - List the different principles of Open Science
+      - Give examples of 3 use cases of the different Open Science principles
     - date: March 05, 1900
       duration: 90 min
       notes: https://annuel2.framapad.org/p/ols-9-week-10
@@ -385,7 +451,24 @@ weeks:
       hosts:
       - malvikasharan
       type: Cohort
-      talks: []
+      talks:
+      - slides: 
+          https://docs.google.com/presentation/d/e/2PACX-1vTx3oylG4TpcsIXJPXuvNluZSdqJZoRI_6b76Lv5VgdyvymmE91gU1x-MfKCnvwdg/pub?start=false&loop=false&delayms=3000&slide=id.p1
+        speakers:
+        - malvikasharan
+        title: Open Science Garden(s)
+      - speakers:
+        - fadanka
+        title: Open Hardware
+        tag: Open Hardware
+      - speakers:
+        - lauracarter
+        title: Open Engagement of Social Actors
+        tag: Open Engagement of Social Actors
+      - speakers:
+        - 
+        title: 'Diversity of knowledge: Bibliodiversity'
+        tag: Openness to Diversity of Knowledge
       time: "17:00"
     - date: March 19, 1900
       time: "16:00"
